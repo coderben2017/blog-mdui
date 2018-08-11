@@ -97,3 +97,10 @@ header{
     text-align: center;
     font: 700 16px STKaiti, sans-serif;
 }
+
+#bgm {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    bottom: 1%;
+}
