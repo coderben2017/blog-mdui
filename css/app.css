@@ -96,11 +96,13 @@ header{
     border: 2px dashed #ccc;
     text-align: center;
     font: 700 16px STKaiti, sans-serif;
+    margin-bottom: 18%;
 }
 
 #bgm {
     position: fixed;
     width: 90%;
+    height: 10%;
     left: 5%;
     bottom: 1%;
 }
