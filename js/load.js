@@ -37,6 +37,8 @@ function show(type, index) {
   const tips = document.getElementById('tips');
 
   if (type === 'poem') {
+    content.setAttribute('style', 'text-align: center');
+
     title.innerHTML = `
       <h2>${poems[index].title}</h2>
     `;
@@ -57,6 +59,8 @@ function show(type, index) {
     });
     tips.innerHTML = html_tips;
   } else if (type === 'article') {
+    content.setAttribute('style', 'text-indent: 2em; text-align: left');
+
     title.innerHTML = `
       <h2>${articles[index].title}</h2>
     `;
