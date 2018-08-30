@@ -58,7 +58,8 @@ function show(type, index) {
       `;
     });
     tips.innerHTML = html_tips;
-  } else if (type === 'article') {
+  } 
+  else if (type === 'article') {
     content.setAttribute('style', 'text-indent: 2em; text-align: left');
 
     title.innerHTML = `
